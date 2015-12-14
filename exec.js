@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$("#past-ex").mouseover(function(){
+		$(this).addClass("past-hover");
+	});
+	$("#past-exec").mouseover(function(){
+		$(this).addClass("past-btn-hover");
+	});
+	$("#past-ex").mouseout(function(){
+		$(this).removeClass("past-hover");
+	});
+	$("#past-exec").mouseout(function(){
+		$(this).removeClass("past-btn-hover");
+	});
+});

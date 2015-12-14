@@ -1,0 +1,53 @@
+$(document).ready(function(){
+	$("#buy-1").mouseover(function(){
+		$(this).addClass("buy-hover");
+	});
+	$("#buy-btn-1").mouseover(function(){
+		$(this).addClass("buy-btn-hover");
+	});
+	$("#buy-1").mouseout(function(){
+		$(this).removeClass("buy-hover");
+	});
+	$("#buy-btn-1").mouseout(function(){
+		$(this).removeClass("buy-btn-hover");
+	});
+	
+	$("#buy-2").mouseover(function(){
+		$(this).addClass("buy-hover");
+	});
+	$("#buy-btn-2").mouseover(function(){
+		$(this).addClass("buy-btn-hover");
+	});
+	$("#buy-2").mouseout(function(){
+		$(this).removeClass("buy-hover");
+	});
+	$("#buy-btn-2").mouseout(function(){
+		$(this).removeClass("buy-btn-hover");
+	});
+	
+	$("#buy-3").mouseover(function(){
+		$(this).addClass("buy-hover");
+	});
+	$("#buy-btn-3").mouseover(function(){
+		$(this).addClass("buy-btn-hover");
+	});
+	$("#buy-3").mouseout(function(){
+		$(this).removeClass("buy-hover");
+	});
+	$("#buy-btn-3").mouseout(function(){
+		$(this).removeClass("buy-btn-hover");
+	});
+	
+	$("#buy-4").mouseover(function(){
+		$(this).addClass("buy-hover");
+	});
+	$("#buy-btn-4").mouseover(function(){
+		$(this).addClass("buy-btn-hover");
+	});
+	$("#buy-4").mouseout(function(){
+		$(this).removeClass("buy-hover");
+	});
+	$("#buy-btn-4").mouseout(function(){
+		$(this).removeClass("buy-btn-hover");
+	});
+});
