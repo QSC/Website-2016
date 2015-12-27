@@ -3,7 +3,6 @@ $(document).ready(function(){
 	$("#speaker1").mouseover(function(){
 		$("#head1").addClass("headshot-cover");
 		$("#head1").addClass("visible");
-		$("#head1").fadeIn(300);
 	});
 	$("#speaker1").mouseout(function(){
 		$("#head1").removeClass("headshot-cover");
