@@ -315,6 +315,29 @@ footer{
 .buy-btn-hover{
 	color:white;
 }
+.sold{
+	text-align:center;
+	border: 3px solid red;
+	width:150px;
+	padding: 10px 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.sold:hover{
+	background-color: red;
+}
+.sold-btn{
+	color: red !important;
+}
+.sold-btn:hover{
+	color: white !important;
+}
+.sold-btn-hover{
+	color:white;
+}
 #tickets{
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
