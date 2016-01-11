@@ -433,3 +433,13 @@ td{
 /* Sponsors */
 
 /* //Sponsors */
+/* Speakers-Info */
+.speakers-bio{
+    padding: 30px 100px;
+    border-top: 1px solid black;
+}
+.body-text{
+    text-align:left;
+    font-size: 16px;
+}
+/* //Speakers-Info */
