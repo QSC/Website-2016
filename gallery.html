@@ -1,7 +1,7 @@
 <html lang="en-US">
 
 <head>
-    <title>Delegate Application | Queen's Space Conference</title>
+    <title>Gallery | Queen's Space Conference</title>
     <meta name="keywords" content="Space, Queen's University, Conference">
     <meta name="description" content="Web site for the Queen's Space Conference held at Queen's University in Kingston, Ontario, Canada">
     <meta charset="UTF-8">
@@ -11,15 +11,22 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="qsc.css" type='text/css'><!-- CSS for QSC web pages -->
-    <link rel="stylesheet" href="icons.css" type='text/css'><!-- CSS for Social Media icons -->
-    <link rel="stylesheet" href="3.3.5/css/bootstrap.min.css" type='text/css'><!-- Bootstrap CSS v3.3.5 -->
+    <link rel="stylesheet" href="qsc.css" type='text/css'>
+    <!-- CSS for QSC web pages -->
+    <link rel="stylesheet" href="icons.css" type='text/css'>
+    <!-- CSS for Social Media icons -->
+    <link rel="stylesheet" href="3.3.5/css/bootstrap.min.css" type='text/css'>
+    <!-- Bootstrap CSS v3.3.5 -->
     <link href='https://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'><!-- Condense and download these two ^^ -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <!-- Condense and download these two ^^ -->
 
     <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><!-- jQuery v1.11.0--><!-- Download this -->
-    <script src="3.3.5/js/bootstrap.min.js"></script><!-- Bootstrap JS v3.3.5 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jQuery v1.11.0-->
+    <!-- Download this -->
+    <script src="3.3.5/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS v3.3.5 -->
     <script src="qsc.js"></script>
 
 </head>
@@ -29,7 +36,7 @@
         <a href="index.html"><img id="header" class="big_logo" src="white_logo.00_png_srz"></a>
         <a href="#about"><h1 id="title">Queen's Space Conference</h1></a>
     </div>
-    <div id="main" style="height:1280px;">
+    <div id="main" style="height: 930px;">
         <header>
             <nav id="mainNav" class="navbar navbar-default" style="border-width:0px;border-radius:0px;margin:0px;">
                 <div class="container-fluid" style="height:60px;padding:0px 30px 0px 30px;">
@@ -39,22 +46,23 @@
                             <li class="menu-li"><a href="index.html" class="menuItem">Home</a></li>
                             <li class="menu-li"><a href="speakers.html" class="menuItem">Speakers</a></li>
                             <li class="menu-li"><a href="sponsors.html" class="menuItem">Sponsors</a></li>
-                            <li class="dropdown menu-li" style="padding: 0px;">
-                                <a href="#" class="dropdown-toggle menuItem" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:#555 !important;padding:15px 10.312px 15px 10.312px;background-color: #e7e7e7">Delegates <span class="caret"></span></a>
-                                <ul class="dropdown-menu" style="margin-left:0px;border-width:0px;width:186px">
+                            <li class="dropdown menu-li">
+                                <a id="drop1" href="#" class="dropdown-toggle menuItem" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;padding-bottom:10px;">
+                                    <p class="menu-border">Delegates </p><span class="caret"></span></a>
+                                <ul class="dropdown-menu" style="margin-left:4px;border-width:0px;width:186px">
                                     <li><a href="internal.html">Queen's Students</a></li>
                                     <li><a href="external.html">External Students</a></li>
                                 </ul>
                             </li>
                             <li class="menu-li"><a href="current-exec.html" class="menuItem">Executive </a></li>
-                            <li class="menu-li"><a href="gallery.html" class="menuItem">Gallery</a></li>
+                            <li class="menu-li active"><a href="gallery.html" class="menuItem">Gallery<span class="sr-only">(current)</span></a></li>
                             <li class="dropdown menu-li">
-                                <a href="#" class="dropdown-toggle menuItem" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;padding-bottom:10px;">
+                                <a id="drop2" href="#" class="dropdown-toggle menuItem" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;padding-bottom:10px;">
                                     <p class="menu-border">History </p><span class="caret"></span></a>
                                 <ul class="dropdown-menu" style="margin-left:4px;border-width:0px;width:184px">
-                                    <li><a href="construction.html">Past Themes</a></li>
-                                    <li><a href="construction.html">Past Speakers</a></li>
-                                    <li><a href="construction.html">Past Executives</a></li>
+                                    <li><a href="past-themes.html">Past Themes</a></li>
+                                    <li><a href="past-speakers.html">Past Speakers</a></li>
+                                    <li><a href="past-exec.html">Past Executives</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -67,15 +75,27 @@
 
         <!--This is the main area-->
 
-        <div id="body" style="height:1180px">
-            <div class="body_div">
-                <img src="Photos/application_banner.jpg" style="box-shadow: 0 0 10px;">
-                <h2 style="padding-bottom:5px;">QSC 2016 Delegate Application</h2>
-                <h3 style="text-align:center;font-family: titillium-italic;margin:0px 0px 15px 0px;">A Civilian's Guide to the Galaxy</h3>
-                <p class="main_p">Thank you for showing interest in attending QSC 2016! Your answers will be used to recognize areas of interest and assess your suitability as an applicant. Please be honest and concise. After submitting your application, you will be sent a confirmation email. If you do not receive this email, or have any issues with the application process, please contact <a href="mailto:zharley@qsconference.com">z.harley@qsconference.com</a>. If you are selected as a delegate, you will be given a PayPal link where you will have to pay the fee for your chosen ticket type. Due to increased interest in QSC, accepted delegates must pay within <b>3 days</b> of receiving their email confirming their acceptance. Good luck!</p>
-                <iframe id="typeform-full" width="1000px" height="500px" frameborder="0" src="https://qsconference.typeform.com/to/P6qmtR"></iframe>
-                <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js"></script>
-            </div>
+        <div id="body" style="height:600px">
+            <center>
+                <h2>Gallery</h2>
+                <p class="main_p"> Check out all of the pictures from every QSC! Thanks for your support!</p>
+                <div id="row1">
+                    <div style="margin: 0px 50px; float: left;">
+                        <h3>QSC 2014</h3>
+                        <a data-flickr-embed="true" href="https://www.flickr.com/photos/138459246@N06/albums/72157664509917316" title="QSC 2014">
+                            <img src="https://farm2.staticflickr.com/1489/24873333101_d311bd1540.jpg" width="500" height="333" alt="QSC 2014" style="float:left;">
+                        </a>
+                        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    </div>
+                    <div style="margin: 0px 50px; float: left">
+                        <h3>QSC 2013</h3>
+                        <a data-flickr-embed="true" href="https://www.flickr.com/photos/138459246@N06/albums/72157662308736934" title="QSC 2013">
+                            <img src="https://farm2.staticflickr.com/1702/24920931711_40cd4c08a0.jpg" width="500" height="333" alt="QSC 2013" style="float: left;">
+                        </a>
+                        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </center>
         </div>
 
         <!--\This is the main area-->
@@ -85,7 +105,7 @@
                 <div id="social" class="outer_footer">
                     <div class="social_container">
                         <span id="Facebook">
-                                    <a href="https://www.facebook.com/Queens-Space-Conference-1383949258507604/" target="_blank"><span aria-hidden="true" id="FB_icon" class="social_facebook_circle icons"></span></a>
+								<a href="https://www.facebook.com/Queens-Space-Conference-1383949258507604/" target="_blank"><span aria-hidden="true" id="FB_icon" class="social_facebook_circle icons"></span></a>
                         <a href="https://www.facebook.com/Queens-Space-Conference-1383949258507604/" target="_blank">
                             <p id="FB_text" class="social_text">Facebook</p>
                         </a>
@@ -93,7 +113,7 @@
                     </div>
                     <div class="social_container">
                         <span id="Twitter">
-                                    <a href="https://twitter.com/QSConference" target="_blank"><span aria-hidden="true" id="TW_icon" class="social_twitter_circle icons"></span></a>
+								<a href="https://twitter.com/QSConference" target="_blank"><span aria-hidden="true" id="TW_icon" class="social_twitter_circle icons"></span></a>
                         <a href="https://twitter.com/QSConference" target="_blank">
                             <p id="TW_text" class="social_text">Twitter</p>
                         </a>
@@ -101,7 +121,7 @@
                     </div>
                     <div class="social_container">
                         <span id="Instagram">
-                                    <a href="https://instagram.com/queensspace/" target="_blank"><span aria-hidden="true" id="IG_icon" class="social_instagram_circle icons"></span></a>
+								<a href="https://instagram.com/queensspace/" target="_blank"><span aria-hidden="true" id="IG_icon" class="social_instagram_circle icons"></span></a>
                         <a href="https://instagram.com/queensspace/" target="_blank">
                             <p id="IG_text" class="social_text">Instagram</p>
                         </a>
@@ -109,7 +129,7 @@
                     </div>
                     <div class="social_container">
                         <span id="YouTube">
-                                    <a href="https://www.youtube.com/channel/UClVGpTMo3S6UDa2C5G366TQ" target="_blank"><span aria-hidden="true" id="YT_icon" class="social_youtube_circle icons"></span></a>
+								<a href="https://www.youtube.com/channel/UClVGpTMo3S6UDa2C5G366TQ" target="_blank"><span aria-hidden="true" id="YT_icon" class="social_youtube_circle icons"></span></a>
                         <a href="https://www.youtube.com/channel/UClVGpTMo3S6UDa2C5G366TQ" target="_blank">
                             <p id="YT_text" class="social_text">YouTube</p>
                         </a>
